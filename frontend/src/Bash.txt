@@ -1,0 +1,21 @@
+# 1. Crear proyecto Vite con React + TypeScript
+npm create vite@latest taller-leads-ui -- --template react-ts
+
+# 2. Navegar al directorio
+cd taller-leads-ui
+
+# 3. Instalar dependencias
+npm install
+
+# 4. Instalar dependencias adicionales
+npm install react-router-dom axios recharts react-hook-form date-fns clsx lucide-react framer-motion react-hot-toast
+
+# 5. Instalar Tailwind CSS
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+# 6. Ejecutar en modo desarrollo
+npm run dev
+
+# 7. Construir para producción
+npm run build
